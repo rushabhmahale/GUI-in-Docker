@@ -36,3 +36,5 @@ GUi in docker running (Graphical User Interface) in docker
  8 docker images ("you will see firefox image")
  
  9 docker container run -it --env="DISPLAY" --net=host firefox 
+## images 
+- docker pull rushabh21/gui-firefox:v1
