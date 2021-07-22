@@ -27,7 +27,7 @@ GUi in docker running (Graphical User Interface) in docker
  
  **FROM centos:latest**
  
- **RUN yum install firefox**
+ **RUN yum install firefox -y**
  
  **CMD ["/usr/bin/firefox"]**
  
